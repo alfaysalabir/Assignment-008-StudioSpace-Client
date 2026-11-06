@@ -63,3 +63,7 @@ StudioSpace lets studio owners list photo studios, sound stages, podcast lounges
 2. The Next.js route `/api/jwt` checks the BetterAuth session, signs a JWT and saves it in an **HTTPOnly cookie**.
 3. Every API call goes through `/api/server/*` (Next.js proxy). The proxy reads the cookie and sends the token to Express.
 4. Express `verifyToken` checks the token. Missing or wrong token = `401 Unauthorized`.
+
+
+## Clint Link
+https://studiospaceclient-rouge.vercel.app/
